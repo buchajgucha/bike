@@ -226,10 +226,6 @@ a {
   display: flex;
 }
 
-ul.swiper__list {
-  margin-top: 20px;
-}
-
 .swiper__list-item {
   text-align: center;
   min-height: 58px;
@@ -241,6 +237,10 @@ ul.swiper__list {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+ul.swiper__list {
+  margin-top: 20px;
 }
 
 .swiper__span-text {

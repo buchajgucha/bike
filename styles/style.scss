@@ -176,10 +176,9 @@ a {
 
 .header__content {
   margin-top: 70px;
-}
-
-.header__content-info {
-  max-width: 420px;
+  &-info {
+    max-width: 420px;
+  }
 }
 
 .header__text {
@@ -208,18 +207,17 @@ a {
 
 .swiper__list {
   display: flex;
+  &-item {
+    text-align: center;
+    min-height: 58px;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 ul.swiper__list {
   margin-top: 20px;
-}
-
-.swiper__list-item {
-  text-align: center;
-  min-height: 58px;
-  min-width: 160px;
-  display: flex;
-  flex-direction: column;
 }
 
 .swiper__span-text {
