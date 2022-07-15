@@ -328,3 +328,121 @@ ul.swiper__list {
   left: 0;
   top: 0;
 }
+
+.order {
+  margin-bottom: 100px;
+}
+
+.order__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__item {
+  display: flex;
+}
+
+.order__text-color,
+.order__name::placeholder,
+.order__number::placeholder {
+  color: #6f6f6f;
+  opacity: 0.5;
+}
+
+// .price::before {
+//   content: "";
+//   position: absolute;
+//   width: 221px;
+//   height: 100px;
+//   border: 1px solid #ff4040;
+// }
+
+.order__title {
+  margin-bottom: 40px;
+}
+
+.order__text {
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+.order__name,
+.order__number {
+  border: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #131313;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.swiper__slider-price {
+  max-width: 630px;
+}
+
+.swiper__slide-price .slick-dots button {
+  width: 80px;
+  height: 12px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.btn__color {
+  width: 80px;
+  height: 12px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.order__text-color {
+  margin-bottom: 10px;
+}
+
+.btn__color + .btn__color {
+  margin-left: 23px;
+}
+
+.btn__grey {
+  background: #6f6f6f;
+}
+
+.btn__white {
+  background: #fff;
+  border: 1px solid #6f6f6f;
+}
+
+.btn__red {
+  background: #ff4040;
+}
+
+.price__number {
+  position: absolute;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #131313;
+  border: 1px solid #ff4040;
+  border-radius: 50%;
+  width: 221px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // transform: translateX(-50%);
+}
+
+.price__number::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #ff4040;
+  border-radius: 50%;
+  width: 221px;
+  height: 100px;
+  top: 12px;
+}

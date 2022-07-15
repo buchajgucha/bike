@@ -1,7 +1,11 @@
+$(".btn__color").on("click", function () {
+  $(".swiper__slide-price").slick("slickGoTo", $(this).index());
+});
+
 $(function () {
-  $(".swiper-slide").slick({
+  $(".swiper__slide-price").slick({
     arrows: false,
-    dots: true,
+
     fade: true,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -9,7 +13,7 @@ $(function () {
 });
 
 $(function () {
-  $(".swiper_slide-bottom").slick({
+  $(".swiper-slide, .swiper_slide-bottom").slick({
     arrows: false,
     dots: true,
     fade: true,
